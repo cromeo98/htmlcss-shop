@@ -36,6 +36,19 @@ img{
     width: 100%;
 }
 
+.img-back{
+    display: none;
+}
+
+.img-box:hover .img-front{
+    display:none
+}
+
+.img-box:hover .img-back{
+    display: block;
+}
+
+
 .centre{
     margin: 0 5%;
 }
