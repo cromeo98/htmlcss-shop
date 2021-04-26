@@ -85,7 +85,7 @@ span{
     background-color: darkgoldenrod;
 }
 
-.debug .description-box{
+.debug .description-box, .debug .pastel-color-clothing{
     height: 50px;
     background-color: darkgreen;
 }
@@ -93,6 +93,13 @@ span{
 .debug .description-box span{
     background-color: greenyellow;
     height: calc(50px / 3);
+    width: 150px;
+    border: 1px solid black;
+}
+
+.debug .pastel-color-clothing span{
+    background-color: greenyellow;
+    height: 25px;
     width: 150px;
     border: 1px solid black;
 }
