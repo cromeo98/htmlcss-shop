@@ -18,7 +18,7 @@
 
 /* item-boxes */
 .item-box{
-    width: calc((100% - 10px) / 3);
+    width: calc(90% / 3);
     float: left;
 }
 
@@ -26,8 +26,13 @@
     position:relative;
 }
 
+img{
+    height: 100%;
+    width: 100%;
+}
+
 .centre{
-    margin: 0 5px;
+    margin: 0 5%;
 }
 
 .heart::after{
@@ -36,11 +41,11 @@
 
 .heart{
     position:absolute;
-    top:10px;
+    top: 10px;
     right:0;
-    font-size: 50px;
+    font-size: 30px;
     background-color: white;
-    padding: 5px 20px;
+    padding: 5px 15px;
 }
 
 .discount{
@@ -65,25 +70,25 @@ span{
 }
 
 /* debug section */
-.debug .main-container{
+/* .debug .main-container{
     height: 1000px;
     background-color: aqua;
-}
+} */
 
-.debug .box-container{
+/* .debug .box-container{
     height: 500px;
     background-color: blue;
-}
+} */
 
-.debug .item-box{
+/* .debug .item-box{
     height: 500px;
     background-color: blueviolet;
-}
+} */
 
-.debug .img-box{
+/* .debug .img-box{
     height: 450px;
     background-color: darkgoldenrod;
-}
+} */
 
 .debug .description-box, .debug .pastel-color-clothing{
     height: 50px;
