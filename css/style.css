@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.main-container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* debug section */
+.debug .main-container{
+    background-color: aqua;
+}
