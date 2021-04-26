@@ -72,7 +72,7 @@ img{
     font-size: 10px;
     font-weight: 600;
     color: white;
-    background-color: red;
+    background-color: #d73b48;
     padding: 5px 10px;
 }
 
@@ -84,7 +84,7 @@ img{
     text-transform: capitalize;
     font-weight: 600;
     color: white;
-    background-color:green;
+    background-color:#3e8158;
     padding: 5px 10px;
 }
 
@@ -128,11 +128,11 @@ img{
 .price{
     margin: 10px 0;
     vertical-align: middle;
-    font-weight: 600;
 }
 
 .red{
-    color: red;
+    color: #da4d5f;
+    font-weight: 600;
 }
 
 /* debug section */
