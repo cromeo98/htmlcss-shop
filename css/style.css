@@ -93,8 +93,16 @@ img{
 }
 
 /* description boxes */
+.description-box, .pastel-color-clothing{
+    height: 75px;
+}
+
 .description-box > span, .pastel-color-clothing > span{
     display: block;
+}
+
+.bg-col-green{
+    background-color:#75ac51;
 }
 
 .brand{
@@ -103,12 +111,12 @@ img{
 }
 
 .pastel-color-clothing{
-    background-color:#75ac51;
-    padding: 10px 0 10px 15px;
+    padding-left: 15px;
 }
 
 .text{
-    padding: 2.5px 0 2.5px;
+    line-height: 37.5px;
+    vertical-align: middle;
 }
 
 /* text format */
