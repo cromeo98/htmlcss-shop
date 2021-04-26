@@ -16,8 +16,8 @@
     clear: both;
 }
 
-/* boxes */
-.box{
+/* item-boxes */
+.item-box{
     width: calc((100% - 10px) / 3);
     float: left;
     position: relative;
@@ -50,8 +50,18 @@
     border: 2px solid black;
 }
 
-.debug .box{
-    height: 450px;
+.debug .item-box{
+    height: 500px;
     background-color: blueviolet;
     border: 2px solid black;
+}
+
+.debug .img-box{
+    height: 450px;
+    background-color: darkgoldenrod;
+}
+
+.debug .description-box{
+    height: 50px;
+    background-color: darkgreen;
 }
