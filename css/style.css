@@ -16,6 +16,9 @@
     clear: both;
 }
 
+.box-container{
+    margin-bottom: 75px;
+}
 /* item-boxes */
 .item-box{
     width: calc(90% / 3);
@@ -51,22 +54,60 @@ img{
 .discount{
     position:absolute;
     bottom:10px;
-    font-size: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
     background-color: red;
-    padding: 5px 20px;
+    padding: 5px 10px;
 }
 
 .sustainability{
     position:absolute;
     bottom:10px;
     left: 50px;
-    font-size: 20px;
+    font-size: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: white;
     background-color:green;
-    padding: 5px 20px;
+    padding: 5px 10px;
 }
 
-span{
+#alone{
+    left: 0;
+}
+
+.description-box > span, .pastel-color-clothing > span{
     display: block;
+}
+
+.brand{
+    font-size: 11px;
+    margin: 5px 0;
+}
+
+/* text format */
+.first-cap{
+    text-transform: capitalize;
+}
+
+.caps-lock{
+    text-transform: uppercase;
+}
+
+.clothes, .price{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.price{
+    margin: 10px 0;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.red{
+    color: red;
 }
 
 /* debug section */
@@ -90,21 +131,21 @@ span{
     background-color: darkgoldenrod;
 } */
 
-.debug .description-box, .debug .pastel-color-clothing{
+/* .debug .description-box, .debug .pastel-color-clothing{
     height: 50px;
     background-color: darkgreen;
-}
+} */
 
-.debug .description-box span{
+/* .debug .description-box span{
     background-color: greenyellow;
     height: calc(50px / 3);
     width: 150px;
     border: 1px solid black;
-}
+} */
 
-.debug .pastel-color-clothing span{
+/* .debug .pastel-color-clothing span{
     background-color: greenyellow;
     height: 25px;
     width: 150px;
     border: 1px solid black;
-}
+} */
