@@ -16,13 +16,26 @@
     clear: both;
 }
 
+/* boxes */
 .box{
     width: calc((100% - 10px) / 3);
     float: left;
+    position: relative;
 }
 
 .centre{
     margin: 0 5px;
+}
+
+.heart::after{
+    content: '\2661';
+}
+
+.heart{
+    position:absolute;
+    top:5px;
+    right:0;
+    font-size: 50px;
 }
 
 /* debug section */
