@@ -14,3 +14,9 @@
     height: 1000px;
     background-color: aqua;
 }
+
+.debug .box-container{
+    height: 500px;
+    background-color: blue;
+    border: 2px solid black;
+}
